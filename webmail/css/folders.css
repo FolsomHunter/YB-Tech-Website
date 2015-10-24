@@ -1,0 +1,121 @@
+/* ------------------------------------------------------------------------------------------------ */
+/* STANDARD -- styling for all sizes */
+
+#folders {  
+    float: left;
+    overflow: none;
+}
+
+/* end of STANDARD */
+/* ------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------ */
+/* Narrower than 850px */
+
+@media (max-width: 850px) {
+    
+    #wide { display: none; }
+    
+    #narrow { padding: 10px; }
+    
+    #folders {
+        width: 100%;
+    }
+    
+    #narrow select {
+        width: 100%;
+        padding: 10px;
+    }
+
+}/* end of Narrower than 850px */
+/* ------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------ */
+/* Wider than 850px */
+
+@media (min-width: 851px) {
+    
+    #narrow { display: none; }
+    
+    #folders {  
+        width: 15%; 
+        min-width: 150px;
+    }
+    
+    #folders ul {
+        list-style-type: none; 
+    }
+    
+    #folders li {
+        border-left: 2px #FFF solid;
+        cursor: pointer;
+    }
+    
+    #folders li:hover {
+        border-left: 1px #0000CC solid;
+        color: #0000CC;
+    }
+    
+    #folders li.selected {
+        border-left: 2px #0000CC solid !important;
+        color: #383838 !important;
+        font-weight: bold;
+    }
+    
+    /* ------------------------------------------------------------------------------------------------ */
+    /* DEFAULT FOLDERS */
+    
+    #folders #default ul {
+        width: 100%; 
+        font-size: 20px; 
+        margin: 0;
+        padding: 5px 0 0 5px;
+    }
+    
+    #folders #default li {
+        padding: 5% 10px;
+    }
+
+    #folders #default li:hover {
+        color: #0000CC;
+    }
+    
+    /* end of DEFAULT FOLDERS */
+    /* ------------------------------------------------------------------------------------------------ */
+    
+    /* ------------------------------------------------------------------------------------------------ */
+    /* CUSTOM FOLDERS */
+    
+    #folders #custom-header>div {
+        padding: 10px 0 0 5px;
+    }
+    
+    #folders #custom-header>div>div {
+        border-bottom: 1px #383838 solid;
+        font-size: 20px;
+    }
+    
+    #folders #custom {
+        width: 100%;
+        overflow: scroll;
+    }
+    
+    #folders #custom ul {
+        float: left;
+        list-style-type: none; 
+        margin: 0;
+        padding: 10px;
+        white-space: nowrap;
+    }
+    
+    #folders #custom li { 
+        padding: 5px 0px 5px 5px;
+    }
+    
+    /* end of CUSTOM FOLDERS */
+    /* ------------------------------------------------------------------------------------------------ */
+
+}/* end of Wider than 850px */
+/* ------------------------------------------------------------------------------------------------ */

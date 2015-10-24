@@ -1,0 +1,7 @@
+#buttons {
+    box-shadow: 0px 0px 4px 0px #303030;
+    -moz-box-shadow: 0px 0px 4px 0px #303030;
+    -webkit-box-shadow: 0px 0px 4px 0px #303030;
+    font-size: 0;
+    padding: 0;
+}

@@ -1,0 +1,39 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* LAYOUT */
+
+/*  Use wildcards to remove margins 
+    and paddings and apply border-box 
+    to all elements.
+*/
+*, *:before, *:after { 
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+/*  Remove margins and paddings and 
+    apply border-box to important 
+    elements manually, in case the
+    wildcards fail.
+*/
+html, body, div, img {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* end of LAYOUT */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* TYPOGRAPHY */
+
+html, body { 
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* end of TYPOGRAPHY */
+/* ---------------------------------------------------------------------------------------------------- */

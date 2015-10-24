@@ -1,0 +1,162 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #E0E0E0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse; 
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+table, tr, td {
+    margin: 0;
+    padding: 0;
+}
+
+#logo { 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+#menu-button { 
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+#pageHeader { 
+    display: inline-block;
+    font-family: Impact;
+    font-size: 80px;
+    vertical-align: middle;
+}
+
+
+/* FOLDERS */
+.folders-container {
+    width: 200px; 
+    padding: 0px;
+    vertical-align: top;
+}
+
+/* default folders (Inbox, Drafts, Sent, Trash) */
+
+.default-folders {
+    padding: 0px !important;
+}
+
+.default-folders ul{
+    width: 100%; 
+    font-size: 20px; 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.default-folders li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.default-folders li:hover {
+    color: #0000CC;
+}
+
+.default-folders li.selected {
+    background-color: #FFFFFF; 
+    border: 2px #000000 solid; 
+    color: #000000 !important;
+    font-weight: bold;
+}
+/* end of default folders (Inbox, Drafts, Sent, Trash) */
+
+/* custom folders */
+.custom-folders {
+    width: 100%; 
+    font-size: 17px; 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.custom-folders li.folders-header {
+    border-bottom: 1px #000000 solid;
+    font-size: 18px;
+}
+/* end of custom folders */
+
+/* END OF FOLDERS */
+
+
+/* MESSAGES */
+
+.message-list {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 2px #000000 solid;
+    padding: 0px 5px 0px 5px;
+    vertical-align: top;
+}
+
+.message-list ul {
+    width: 100%;
+    border-bottom: 1px #000000 solid;
+    cursor: pointer;
+    display: table;
+    font-size: 17px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.message-list ul:hover {
+    color: #0000CC;
+    border-color: #0000CC;
+}
+
+.message-list .unread {
+    border-bottom: 2px #000000 solid;
+    font-weight: bold;
+}
+
+.message-list li {
+    display: table-cell;
+    margin-right: -4px;
+}
+
+.message-list li div {
+    padding: 10px 0px 10px 0px !important;
+}
+
+/* Columns in MESSAGES */
+
+.checkbox {
+    padding: 0px 10px 0px 0px;
+}
+
+.subject {
+    width: 55%;
+}
+
+.from {
+    width: 25%;
+}
+
+.date {
+    width: 20%;
+}
+
+/* end of Columns in MESSAGES */
+
+/* END OF MESSAGES */
