@@ -25,7 +25,7 @@
     <!-- CSS
     ---------------------------------------------------------------------------------------------------- -->
     <link rel="stylesheet" href="css/uni/normalize.css">
-    <link rel="stylesheet" href="css/layout2.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/folders.css">
     <link rel="stylesheet" href="css/messages.css">
@@ -42,7 +42,7 @@
         <div id="header">
             <img class="header-image" src="images/header-450-by-100.png" alt="header-450-by-100.png">
         </div>
-        <div id="v-spacer1"></div>        
+        <div id="v-spacer1"></div>
         <div id="webmail">
             <div id="folders">
                 <div id="wide">

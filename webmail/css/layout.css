@@ -19,6 +19,7 @@ body, html {
     box-shadow: 0px 0px 4px 0px #303030;
     -moz-box-shadow: 0px 0px 4px 0px #303030;
     -webkit-box-shadow: 0px 0px 4px 0px #303030;
+    float: left;
 }
 
 #v-spacer1 {
